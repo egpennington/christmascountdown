@@ -25,7 +25,7 @@
       background: url("https://images.pexels.com/photos/1303094/pexels-photo-1303094.jpeg?auto=compress&cs=tinysrgb&w=800") no-repeat center center/cover;
   }
   
- .container {
+  .container {
       display: flex;
       flex-direction: column;
       margin: 10px auto;
@@ -73,6 +73,7 @@
 .social-icons a {
     color: #fff;
     margin-left: 15px;
+    text-decoration: none;
  }
 
  .social-icons a:hover {
@@ -81,9 +82,9 @@
 
  @media(max-width: 468px) {
     h1 {
-        font-size: 1.9rem;
+        font-size: 1.7rem;
     }
-    
+
     footer {
         display: grid;
         grid-gap: 3px;
