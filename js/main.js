@@ -4,7 +4,7 @@ const countdownMinutes = document.getElementById("countdown-minutes")
 const counddownSeconds = document.getElementById("countdown-seconds")
 
 function updateCountdown() {
-    const targetDate = new Date("December 25, 2023").getTime()
+    const targetDate = new Date("December 25, 2024").getTime()
     const currentDate = new Date().getTime()
 
     const timeDifference = targetDate - currentDate
